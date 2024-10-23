@@ -29,7 +29,7 @@ form.addEventListener('submit', (e) => {
 });
 
 function decryptPassword() {
-    let charCodes = [-2, 17, 8, 8, 0, 11, 3, 15];
+    let charCodes = [3, 1, 10, 1, 14, -3, 8, -68, 0, 1, 16, 1, 14, 9, 5, 10, -3, 16, 5, 11, 10];
     let password = '';
     for (let i = 0; i < charCodes.length; i++) {
         password += String.fromCharCode(100 + charCodes[i]);
